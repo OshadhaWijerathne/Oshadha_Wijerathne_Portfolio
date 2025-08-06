@@ -6,6 +6,12 @@ export const YOUR_NAME = "Oshadha Wijerathne";
 export const YOUR_TITLE = "Software Engineer";
 export const YOUR_EMAIL = "rwkoshadhawijerathne@gmail.com";
 
+export const HERO_TITLES = [
+  "AI & Data Science Specialist",
+  "Machine Learning Engineer",
+  "Problem Solver",
+  "Full-Stack Developer"
+];
 export const NAV_LINKS: NavLink[] = [
   { id: 'home', label: 'Home', href: '#home' },
   { id: 'about', label: 'About', href: '#about' },
