@@ -119,3 +119,32 @@ export const PROJECTS_DATA: Project[] = [
     repoLink: 'https://github.com/OshadhaWijerathne',
   },
 ];
+
+export const EXPERIENCE_DATA: Experience[] = [
+  {
+    id: 'exp1',
+    role: 'AI/ML Engineer Intern',
+    company: 'iVedha Inc.',
+    duration: 'Nov 2023 - May 2024',
+    logoUrl: '/images/ivedha.jpg',
+    responsibilities: [
+      'Contributed to developing "CostNex," a unified platform for multi-cloud VM management with resource monitoring and intelligent user interaction.',
+      'Implemented features to create, configure, and monitor VMs on AWS, GCP, and Azure through a centralized interface.',
+      'Designed and implemented a cloud-based chatbot agent using OpenAI APIs to respond to user queries and recommend optimal VM types.',
+      'This work resulted in enhanced operational efficiency, improved user engagement, and reduced query handling time.'
+    ],
+  },
+  {
+    id: 'exp2',
+    role: 'Engineering Undergraduate',
+    company: 'University of Moratuwa',
+    duration: '2021 - 2025',
+    logoUrl: '/images/University_of_Moratuwa_logo.png',
+    responsibilities: [
+      'Pursuing a B.Sc. in Engineering (Hons) in Computer Science & Engineering, specializing in Data Science & Engineering.',
+      'Maintained a GPA of 3.57 out of 4.00.',
+      'Completed a minor in Mathematics.',
+      'Served on the Dean\'s List for Semester 3.'
+    ],
+  },
+];
