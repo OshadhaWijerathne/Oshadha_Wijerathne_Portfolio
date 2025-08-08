@@ -6,6 +6,12 @@ export const YOUR_NAME = "Oshadha Wijerathne";
 export const YOUR_TITLE = "Software Engineer";
 export const YOUR_EMAIL = "rwkoshadhawijerathne@gmail.com";
 
+export const SOCIAL_LINKS: SocialLink[] = [
+  { id: 'github', name: 'GitHub', url: 'https://github.com/OshadhaWijerathne', Icon: GitHubIcon },
+  { id: 'linkedin', name: 'LinkedIn', url: 'https://www.linkedin.com/in/oshadha-wijerathne-9ba232311/', Icon: LinkedInIcon },
+  { id: 'email', name: 'Email', url: `mailto:${YOUR_EMAIL}`, Icon: EmailIcon },
+];
+
 export const HERO_TITLES = [
   "AI & Data Science Specialist",
   "Machine Learning Engineer",
