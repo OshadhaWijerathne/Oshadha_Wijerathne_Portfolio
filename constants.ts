@@ -82,7 +82,7 @@ export const PROJECTS_DATA: Project[] = [
     description: 'A final year research project developing a multi-agent personal travel planner using Large Language Models. This system generates personalized itineraries by understanding user preferences, querying databases, and integrating with calendar events. It leverages LangGraph for dynamic trip updates and feedback loops, enhancing travel planning automation.',
     imageUrl: '/images/travel-planner.png',
     techStack: ['Python', 'LangGraph', 'OpenAI', 'Hugging Face', 'MongoDB'],
-    repoLink: 'https://github.com/OshadhaWijerathne',
+    repoLink: 'https://github.com/OshadhaWijerathne/Personal-Travel-Planner-Multi-Agent-LLM-System',
   },
   {
     id: 'proj2',
@@ -90,7 +90,7 @@ export const PROJECTS_DATA: Project[] = [
     description: 'Trained and evaluated Convolutional Neural Network models (VGG16, DenseNet121) on the HAM10000 dataset to classify 7 types of skin lesions. Applied data augmentation and class balancing techniques to improve model generalization and achieved high accuracy and robustness using TensorFlow and Keras.',
     imageUrl: '/images/skin-lesion.png',
     techStack: ['Python', 'TensorFlow', 'Keras', 'Scikit-learn', 'Jupyter Notebooks'],
-    repoLink: 'https://github.com/OshadhaWijerathne',
+    repoLink: 'https://github.com/OshadhaWijerathne/Skin-Lesion-Classifier',
   },
   {
     id: 'proj3',
@@ -106,7 +106,7 @@ export const PROJECTS_DATA: Project[] = [
     description: 'Created a user-friendly web app with Streamlit for real-time plant disease classification from leaf images. The application features an interactive chatbot, enhanced by a Retrieval-Augmented Generation (RAG) architecture using ChromaDB as a vector store for improved information retrieval on plant health.',
     imageUrl: '/images/plant-health.png',
     techStack: ['Python', 'Streamlit', 'ChromaDB', 'CNN'],
-    repoLink: 'https://github.com/OshadhaWijerathne',
+    repoLink: 'https://github.com/OshadhaWijerathne/Smart-Plant-Health',
   },
     {
     id: 'proj5',
@@ -114,15 +114,23 @@ export const PROJECTS_DATA: Project[] = [
     description: 'Built a robust machine learning pipeline to predict Parkinson\'s disease from biomedical voice measurements. The project involved feature selection, data scaling, and handling class imbalance with RandomOverSampler. The final XGBoost model achieved 84% accuracy and a high validation ROC-AUC score.',
     imageUrl: '/images/parkinsons-detection.png',
     techStack: ['Python', 'Scikit-learn', 'XGBoost', 'Pandas', 'NumPy', 'Joblib'],
-    repoLink: 'https://github.com/OshadhaWijerathne',
+    repoLink: 'https://github.com/OshadhaWijerathne/Parkinson-Diesease-Prediction',
   },
-  {
+    {
+    id: "proj7",
+    title: "ScheduleMe: Multi-Agent Calendar Assistant",
+    description: "A multi-agent calendar assistant that enables users to manage Google Calendar events using natural language. The system employs a supervisory agent to coordinate specialized agents for scheduling, checking availability, editing, and deleting events, all through a conversational interface. This architecture is built on a graph-based coordination mechanism to handle complex user commands and ensure reliable task execution.",
+    imageUrl: "/images/schedule-me.png",
+    techStack: [ "Python","LangChain", "LangGraph", "OpenAI GPT-4o mini", "FastAPI", "Google Calendar API", "Streamlit"],
+    repoLink: "https://github.com/OshadhaWijerathne/ScheduleMe-Multi-Agent-Calendar-Assistant"
+  },
+    {
     id: 'proj6',
     title: 'Smart License Detect',
     description: 'Engineered a deep learning solution to automatically detect Sri Lankan driver\'s licenses from images and extract textual content. The system utilizes a YOLOv8 model for precise object detection and leverages OpenCV with EasyOCR for accurate text extraction from the identified license regions.',
-    imageUrl: '/images/license-detect.png',
+    imageUrl: '/images/license-detect.jpg',
     techStack: ['Python', 'YOLOv8', 'OpenCV', 'EasyOCR', 'FastAPI'],
-    repoLink: 'https://github.com/OshadhaWijerathne',
+    repoLink: 'https://github.com/OshadhaWijerathne/Smart_License_Detect',
   },
 ];
 
@@ -134,23 +142,24 @@ export const EXPERIENCE_DATA: Experience[] = [
     duration: 'Nov 2023 - May 2024',
     logoUrl: '/images/ivedha.jpg',
     responsibilities: [
-      'Contributed to developing "CostNex," a unified platform for multi-cloud VM management with resource monitoring and intelligent user interaction.',
-      'Implemented features to create, configure, and monitor VMs on AWS, GCP, and Azure through a centralized interface.',
-      'Designed and implemented a cloud-based chatbot agent using OpenAI APIs to respond to user queries and recommend optimal VM types.',
-      'This work resulted in enhanced operational efficiency, improved user engagement, and reduced query handling time.'
+      'Contributed to developing "CostNex," a unified platform for multi-cloud VM management with resource monitoring and AI-driven user interaction.',
+      'Implemented features for creating, configuring, and monitoring VMs across AWS, GCP, and Azure through a centralized interface.',
+      'Designed and deployed an AI-powered chatbot agent using OpenAI APIs to respond to user queries and recommend optimal VM types.',
+      'Leveraged machine learning techniques to enhance operational efficiency, improve user engagement, and reduce query handling time.'
     ],
   },
   {
     id: 'exp2',
-    role: 'Engineering Undergraduate',
+    role: 'Engineering Graduate',
     company: 'University of Moratuwa',
     duration: '2021 - 2025',
     logoUrl: '/images/University_of_Moratuwa_logo.png',
     responsibilities: [
-      'Pursuing a B.Sc. in Engineering (Hons) in Computer Science & Engineering, specializing in Data Science & Engineering.',
-      'Maintained a GPA of 3.57 out of 4.00.',
+      'Completed all academic requirements for B.Sc. in Engineering Hons, Computer Science & Engineering, specializing in Data Science & Engineering.',
+      'Graduation ceremony scheduled for 17th – 18th December 2025.',
+      'Awarded Second Class Upper Division with a GPA of 3.57/4.00.',
       'Completed a minor in Mathematics.',
-      'Served on the Dean\'s List for Semester 3.'
     ],
   },
+    
 ];
